@@ -20,8 +20,8 @@ import re
 os_name = platform.system()
 
 modules_to_check = {
-    "torch": ("1.11.0", "1.13.1", "2.0.0", "2.0.1", "2.3.1"),
-    "torchvision": ("0.12.0", "0.14.1", "0.15.1", "0.15.2", "0.18.0"),
+    "torch": ("2.1.0", "2.3.1"),
+    "torchvision": ("0.15.2", "0.18.0"),
     "setuptools": "69.5.1",
     # "sdkit": "2.0.15.6", # checked later
     # "diffusers": "0.21.4", # checked later
