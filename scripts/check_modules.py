@@ -20,8 +20,8 @@ import re
 os_name = platform.system()
 
 modules_to_check = {
-    "torch": ("1.11.0", "1.13.1", "2.0.0", "2.0.1"),
-    "torchvision": ("0.12.0", "0.14.1", "0.15.1", "0.15.2"),
+    "torch": ("1.11.0", "1.13.1", "2.0.0", "2.0.1", "2.3.1"),
+    "torchvision": ("0.12.0", "0.14.1", "0.15.1", "0.15.2", "0.18.0"),
     "setuptools": "69.5.1",
     # "sdkit": "2.0.15.6", # checked later
     # "diffusers": "0.21.4", # checked later
@@ -33,7 +33,7 @@ modules_to_check = {
     "ruamel.yaml": "0.17.21",
     "sqlalchemy": "2.0.19",
     "python-multipart": "0.0.6",
-    # "xformers": "0.0.16",
+    "xformers": "0.0.16",
 }
 modules_to_log = ["torch", "torchvision", "sdkit", "stable-diffusion-sdkit", "diffusers"]
 
