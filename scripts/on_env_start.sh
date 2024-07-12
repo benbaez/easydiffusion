@@ -21,7 +21,7 @@ if [ -f "scripts/get_config.py" ]; then
 fi
 
 if [ "$update_branch" == "" ]; then
-    export update_branch="h100_support"
+    export update_branch="main"
 fi
 
 if [ -f "scripts/install_status.txt" ] && [ `grep -c sd_ui_git_cloned scripts/install_status.txt` -gt "0" ]; then
