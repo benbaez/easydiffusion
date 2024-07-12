@@ -17,7 +17,7 @@ fi
 export PYTHONPATH=$(pwd)/installer_files/env/lib/python3.8/site-packages:$(pwd)/stable-diffusion/env/lib/python3.8/site-packages
 
 if [ -f "scripts/get_config.py" ]; then
-   export update_branch="$( python scripts/get_config.py --default=h100_support update_branch )"
+   export update_branch="$( python scripts/get_config.py --default=main update_branch )"
 fi
 
 if [ "$update_branch" == "" ]; then
