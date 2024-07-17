@@ -19,6 +19,7 @@ import re
 
 os_name = platform.system()
 
+# https://pytorch.org/get-started/previous-versions/
 # Current torch=2.3.1, torchvision=0.18.0
 
 modules_to_check = {
